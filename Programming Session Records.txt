@@ -1,4 +1,6 @@
 /* Javascript Study Sessions----
+--------------------------------
+//xX.xX.xX x:XX - x:XX (x minutes)
 
 
 To Review: {
@@ -16,15 +18,23 @@ Visualize Data with JS: http://www.highcharts.com/,
 }
 
 
---------------------------------------
-//xX.xX.xX x:XX - x:XX (x minutes)
+
+--------------------------------
+//2.9.17 Bedroom Study | 8PM - 11PM (180 minutes)
 
 Lessons {
 Falsy Bouncer Lesson FCC: https://www.freecodecamp.com/challenges/falsy-bouncer
 }
 
 
-//2.9.17 aiChatbotWorkshop | 9AM - 12PM ()
+nodeJS {
+Install NodeJS: http://blog.teamtreehouse.com/install-node-js-npm-mac,
+Install Homebrew: http://brew.sh/,
+
+}
+
+
+//2.9.17 aiChatbotWorkshop SapientRazorfish | 9AM - 12PM (180 minutes)
 
 
 PodioChatbot {
@@ -43,7 +53,7 @@ api.ai GroupMe Bot: https://discuss.api.ai/t/groupme-bot/891,
 
 
 aiPlatforms {
-Microsoft: Bot framework,
+Microsoft: Azure Bot framework,
 IBM: Watson,
 Amazon: Alexa/Lex,
 Google: Api.ai,
@@ -52,16 +62,16 @@ Facebook: Wit.ai,
 
 
 
---------------------------------------
+--------------------------------
 //2.8.17 Hampton SOHO Study Session | 8:20PM - 11:40PM (150 minutes)
 
 Lessons {
 Mutations Lesson FCC: https://www.freecodecamp.com/challenges/mutations,
 Free Code Camp Mutations - YouTube: https://www.youtube.com/watch?v=Wvv01k3b4vc,
-indexOf() and .some(): https://www.youtube.com/watch?v=33o7FrFyqPg
+indexOf() and .some(): https://www.youtube.com/watch?v=33o7FrFyqPg,
 toLowerCase: http://www.w3schools.com/jsref/jsref_tolowercase.asp,
 .split: http://www.w3schools.com/jsref/jsref_split.asp,
-Mutations Solution: https://www.freecodecamp.com/challenges/mutations#?solution=%20%20function%20mutation(arr)%20%7B%0A%20%20%20%20arr.sort(function(a%2C%20b)%7B%0A%20%20%20%20%20%20return%20a.length%20-%20b.length%3B%0A%20%20%20%20%7D)%3B%0A%20%20%20%20return%20arr%5B0%5D.toLowerCase().split(%22%22).every(function(x)%7B%0A%20%20%20%20%20%20if%20(arr%5B1%5D.toLowerCase().indexOf(x)%20%3D%3D%3D%20-1)%7B%0A%20%20%20%20%20%20%20%20return%20false%3B%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20else%20%7B%0A%20%20%20%20%20%20%20%20%20%20return%20true%3B%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%7D)%3B%0A%20%20%7D%0A%0Amutation(%5B%22floor%22%2C%20%22for%22%5D)%3B%0A
+Mutations Solution: https://www.freecodecamp.com/challenges/mutations#?solution=%20%20function%20mutation(arr)%20%7B%0A%20%20%20%20arr.sort(function(a%2C%20b)%7B%0A%20%20%20%20%20%20return%20a.length%20-%20b.length%3B%0A%20%20%20%20%7D)%3B%0A%20%20%20%20return%20arr%5B0%5D.toLowerCase().split(%22%22).every(function(x)%7B%0A%20%20%20%20%20%20if%20(arr%5B1%5D.toLowerCase().indexOf(x)%20%3D%3D%3D%20-1)%7B%0A%20%20%20%20%20%20%20%20return%20false%3B%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20else%20%7B%0A%20%20%20%20%20%20%20%20%20%20return%20true%3B%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%7D)%3B%0A%20%20%7D%0A%0Amutation(%5B%22floor%22%2C%20%22for%22%5D)%3B%0A,
 Mutations Final Code: MutationsFCC.js
 }
 
