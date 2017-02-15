@@ -1,13 +1,11 @@
 /* Javascript Study Sessions----
 --------------------------------
-//xX.xX.xX x:XX - x:XX (x minutes)
+//xX.xX.xX xXM - xXM (x * 25 minutes)
 
 Questions {
 Module Pattern: What is it? https://frontendmasters.com/courses/js-fundamentals-to-functional/#v=did85vfg6j&skip=1,
-
+Too many arguments?: https://screencast.com/t/7dcYahyG3g,
 }
-
-
 
 To-Review {
 Get HTTP Protocol Request: https://www.youtube.com/watch?v=l473EQSkZqc,
@@ -27,36 +25,133 @@ Install Slack: https://slack.com/downloads/instructions/osx,
 TypeForm: https://admin.typeform.com/,
 Eloquent Javascript Next Chapter: http://eloquentjavascript.net/02_program_structure.html,
 Rethinking Javascript The if Statement: https://hackernoon.com/rethinking-javascript-the-if-statement-b158a61cd6cb#.cky99lj1g,
+Underscorejs Library: underscorejs.org,
+JSON Prettify: http://jsonprettyprint.com/,
 }
 
-
 Lessons to Complete {
-JavaScript is sexy call backs: http://javascriptissexy.com/understand-javascript-callback-functions-and-use-them/,
-Finish FrontEndMasters: Callbacks, Underscore.js
 Use jquery to make xhr request
 Use jquery to display text
 (No document element by id, use straight query)
 }
+
+
+
+
+
+
+
+--------------------------------
+//2.14.17 5PM - 11PM (7 * 25 minutes)
+
+
+Articles {
+Master the JavaScript Interview: What is a Pure Function?: https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-pure-function-d1c076bec976#.4entfxj6z,
+What is a closure? StackOverflow: http://stackoverflow.com/questions/36636/what-is-a-closure,
+What is mutable state? StackOverflow: http://softwareengineering.stackexchange.com/questions/235558/what-is-state-mutable-state-and-immutable-state,
+Pure Functions in JavaScript: http://www.nicoespeon.com/en/2015/01/pure-functions-javascript/,
+How is almost everything in Javascript an object?: http://stackoverflow.com/questions/9108925/how-is-almost-everything-in-javascript-an-object,
+getJSON Doc: http://api.jquery.com/jquery.getjson/,
+}
+
+Videos {
+What is a pure function?: https://vimeo.com/160326750,
+05.15 - #40 - JavaScript - Everything Is An Object: https://www.youtube.com/watch?v=aF_ai66v4Bg,
+JSON and AJAX Tutorial With Real Examples: https://youtu.be/rJesac0_Ftw,
+}
+
+Lessons {
+Trigger Click Events with jQuery FCC: https://www.freecodecamp.com/challenges/trigger-click-events-with-jquery,
+Change Text with Click Events:
+https://www.freecodecamp.com/challenges/change-text-with-click-events,
+}
+
+•	What is a closure?
+  A closure is a function within another function that has access to the variables within it’s parent function’s scope as well as the global variables even when called outside the parent function.
+
+•	What is a pure function?
+  Always returns the same value for a given set of parameters.  Produces no side effects such as global variable updates.  Relies on no external mutable state.
+
+•	In Javascript, people frequently say everything is an object. Explain what this means
+  It means that most data in JS code can be used as an object.  Objects are parameter and value pairs.
+
+
+•	Does Javascript have block scope?
+
+
+•	What is an IIFE?
+
+
+•	What is a higher order function?
+
+
+•	What is a lambda expression?
+
+
+
+--------------------------------
+//2.13.17 5PM - 11PM (7 * 25 minutes)
+
+Lessons {
+JavaScript is sexy call backs: http://javascriptissexy.com/understand-javascript-callback-functions-and-use-them/,
+javascript callback functions tutorial: https://www.youtube.com/watch?v=pTbSfCT42_M,
+Javascript is Sexy closures:
+http://javascriptissexy.com/understand-javascript-closures-with-ease/,
+funfunfunction closures:
+https://www.youtube.com/watch?v=CQqwU2Ixu-U,
+Mozilla closures:
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures,
+Ajax XMLHttpRequest: https://www.youtube.com/watch?v=Dtw6FxRZOEQ,
+What is AJAX?: https://www.youtube.com/watch?v=3l13qGLTgNw.
+Asynchronous JavaScript #2 - AJAX Requests: https://www.youtube.com/watch?v=h0ZUpPiV1ac,
+Caesar's Cipher FCC: https://www.freecodecamp.com/challenges/caesars-cipher#?solution=function%20rot13(str)%7B%0A%09str%20%3D%20str.split(%22%22).map(cipher).join(%22%22)%3B%0A%09return%20str%3B%0A%7D%0A%0Afunction%20cipher(letter)%7B%0A%09var%20symbolregex%20%3D%20%2F%5B%5Ea-zA-Z%5D%2Fg%3B%0A%09if(symbolregex.test(letter))%7B%0A%09%09return%20letter%3B%0A%09%7D%0A%09var%20codeAscii%20%3D%20letter.charCodeAt(0)%3B%0A%09%09if(codeAscii%20%3E%2077)%20%7B%0A%09%09%09codeAscii%20-%3D%2013%3B%0A%09%7D%0A%09else%20%7B%0A%09%09codeAscii%20%2B%3D%2013%3B%0A%09%7D%0A%09return%20String.fromCharCode(codeAscii)%3B%0A%7D%0Arot13(%22SERR%20PBQR%20PNZC%22)%3B,
+Caesar's Cipher Walkthrough: https://www.youtube.com/watch?v=eAe0Xo57AKM,
+
+}
+
+Simple Callback:
+Var calc = function(num1, num2, callback){
+	callback(num1,num2);
+}
+
+Var add = function(a, b){
+	return a + b;
+}
+
+calc(1, 2, add); // 3
+
+
+--------------------------------
+//2.12.17 12PM - 5:30PM (5 * 25 minutes)
+
+
+Lessons {
+Where Do I Belong FCC: https://www.freecodecamp.com/challenges/where-do-i-belong#?solution=%0Afunction%20getIndexToIns(arr%2C%20num)%20%7B%0A%20%20%2F%2F%20Find%20my%20place%20in%20this%20sorted%20array.%0A%20%20var%20count%20%3D%200%3B%0A%20%20arr.sort()%3B%0A%20%20for%20(i%20%3D%200%3B%20i%20%3C%20arr.length%3B%20i%2B%2B)%20%7B%0A%20%20%20%20if%20(arr%5Bi%5D%20%3C%20num)%7B%0A%20%20%20%20%20%20count%2B%2B%3B%20%20%20%20%20%0A%20%20%20%20%7D%0A%20%20%20%20%7D%0A%20%20return%20count%3B%0A%20%20%7D%0A%20%20%0A%0AgetIndexToIns(%5B40%2C%2060%5D%2C%2050)%3B%0A,
+callbackExercises FEM: callbackExercises.md,
+Underscore.js Videos FEM: https://frontendmasters.com/courses/js-fundamentals-to-functional/#v=xystbl149f&p=0.0189,
+Underscore.js Project FEM:
+}
+
+
 
 --------------------------------
 //2.11.17 1PM - 7PM (9 * 25 minutes)
 
 
 Lessons {
-Front End Masters Scale Project: https://frontendmasters.com/courses/js-fundamentals-to-functional/#v=8wnsmht410&skip=1,
-Front End Masters Closure Videos: https://frontendmasters.com/courses/js-fundamentals-to-functional/#v=3wacgkqg29&p=1.0000,
-Front End Masters Closure Project: https://frontendmasters.com/courses/js-fundamentals-to-functional/#v=did85vfg6j&skip=1,
+Scale Project FEM: https://frontendmasters.com/courses/js-fundamentals-to-functional/#v=8wnsmht410&skip=1,
+Closure Videos FEM: https://frontendmasters.com/courses/js-fundamentals-to-functional/#v=3wacgkqg29&p=1.0000,
+Closure Project FEM: https://frontendmasters.com/courses/js-fundamentals-to-functional/#v=did85vfg6j&skip=1,
 }
 
 
 
 --------------------------------
-//2.10.17 11PM - 12:30PM (120 minutes)
+//2.10.17 11PM - 12:30PM (90 minutes)
 
 Lessons {
 Seek and Destroy FCC: https://www.freecodecamp.com/challenges/seek-and-destroy
 Javier Seek and Destroy Solution: https://www.youtube.com/watch?v=Gz9ECvouuR0,
-
 }
 
 
