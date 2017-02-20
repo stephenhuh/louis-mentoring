@@ -40,9 +40,76 @@ Use jquery to display text
 (No document element by id, use straight query)
 }
 
+Articles {
+TL;DR - Lambda means "function used as data https://gist.github.com/ericelliott/414be9be82128443f6df,
+
+}
 
 --------------------------------
-//02.16.17 1:30PM - xXM (1 * 25 minutes)
+//02.20.17 3:30M - 6:00 (Screenshare 120 minutes)
+
+•	What is a lambda expression?
+  A function that is used as an argument or variable definition, that immediately returns data for that purpose.
+  Anonymous function != lamda expression always
+
+--------------------------------
+//02.19.17 10:30M - 11:00 (Screenshare 120 minutes)
+
+ScreenShare with Sean Liley {
+  Podio Slack Integration: https://github.com/flyblackbox/SeanLouisPodio/invitations,
+}
+
+
+
+
+--------------------------------
+//02.18.17 11PM - 5PM (3 * 25 minutes + Screenshare 80 minutes)
+
+
+Articles {
+  JS Classes MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes,
+  Singleton Dofactory: http://www.dofactory.com/javascript/singleton-design-pattern,
+  *Singleton Design Pattern Rob Dodson: http://robdodson.me/javascript-design-patterns-singleton/,
+  IBM developerWorks User singletons wisely: http://www.ibm.com/developerworks/webservices/library/co-single/index.html,
+}
+
+
+Videos {
+Fat Arrow Functions JavaScript Programming Tutorial : https://www.youtube.com/watch?v=J85lRtO_yjY,
+Simple Lambda Expressions in JavaScript: https://www.youtube.com/watch?v=0UmtmAHb4KA,
+Classes - JavaScript Advanced Tutorial 6: https://www.youtube.com/watch?v=cBzCrNo1whM
+Singleton Dsgn Pattern packtpub.com: https://www.youtube.com/watch?v=x81qNYeBJc8,
+JavaScript IIFE, Revealing Module Pattern - Singleton, Constructor: https://www.youtube.com/watch?v=jV2EzOzNZQI,
+}
+
+ScreenShare with Matt Bulfair {
+  User Stories for HHSB: https://www.pivotaltracker.com/n/projects/1579587,
+  Podio / Slack Integration Investigation:
+  Podio API: https://developers.podio.com/examples,
+  Slack API:Slack API: https://api.slack.com/,
+}
+
+Lessons {
+  Render Images from Data Sources UNFINISHED: https://www.freecodecamp.com/challenges/render-images-from-data-sources
+}
+
+--------------------------------
+//02.17.17 7PM - 10PM (3 * 25 minutes)
+
+Videos {
+JavaScript object creation patterns tutorial: https://www.youtube.com/watch?v=xizFJHKHdHw,
+Mastering JavaScript: Creating a Singleton | packtpub.com: https://www.youtube.com/watch?v=9pvlz-O6Sak,
+The Constructor Pattern - OOP in Javascript #4: https://youtu.be/NMOM-OBS094,
+Classes - JavaScript Advanced Tutorial 6: https://youtu.be/cBzCrNo1whM,
+}
+
+Articles {
+Object.defineProperties(): https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperties,
+}
+
+
+--------------------------------
+//02.16.17 1:30PM - 2PM && 6PM - 8:30PM (4 * 25 minutes)
 Lessons {
 Convert JSON Data to HTML FCC: https://www.freecodecamp.com/challenges/convert-json-data-to-html#?solution=%0Afccss%0A%20%20%24(document).ready(function()%20%7B%0A%0A%20%20%20%20%24(%22%23getMessage%22).on(%22click%22%2C%20function()%20%7B%0A%E2%80%89%E2%80%89%20%20%20%20%24.getJSON(%22%2Fjson%2Fcats.json%22%2C%20function(json)%20%7B%0A%0A%20%20%20%20%20%20%20%20var%20html%20%3D%20%22%22%3B%0A%20%20%20%20%20%20%20%20%2F%2F%20Only%20change%20code%20below%20this%20line.%0A%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20json.forEach(function(val)%20%7B%0A%20%20%20%20%20%20%20%20%20%20var%20keys%20%3D%20Object.keys(val)%3B%0A%20%20%20%20%20%20%20%20%20%20html%20%2B%3D%20%22%3Cdiv%20class%20%3D%20%27cat%27%3E%22%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20keys.forEach(function(key)%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20html%20%2B%3D%20%22%3Cstrong%3E%22%20%2B%20key%20%2B%20%22%3C%2Fstrong%3E%3A%20%22%20%2B%20val%5Bkey%5D%20%2B%20%22%3Cbr%3E%22%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%7D)%3B%0A%20%20%20%20%20%20%20%20%20%20html%20%2B%3D%20%22%3C%2Fdiv%3E%3Cbr%3E%22%3B%0A%20%20%20%20%20%20%20%20%7D)%3B%0A%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20%2F%2F%20Only%20change%20code%20above%20this%20line.%0A%0A%E2%80%89%E2%80%89%E2%80%89%E2%80%89%20%20%20%20%24(%22.message%22).html(html)%3B%0A%0A%E2%80%89%E2%80%89%20%20%20%20%7D)%3B%0A%20%20%20%20%7D)%3B%0A%20%20%7D)%3B%0Afcces%0A%0A%3Cdiv%20class%3D%22container-fluid%22%3E%0A%20%20%3Cdiv%20class%20%3D%20%22row%20text-center%22%3E%0A%20%20%20%20%3Ch2%3ECat%20Photo%20Finder%3C%2Fh2%3E%0A%20%20%3C%2Fdiv%3E%0A%20%20%3Cdiv%20class%20%3D%20%22row%20text-center%22%3E%0A%20%20%20%20%3Cdiv%20class%20%3D%20%22col-xs-12%20well%20message%22%3E%0A%20%20%20%20%20%20The%20message%20will%20go%20here%0A%20%20%20%3C%2Fdiv%3E%0A%20%20%3C%2Fdiv%3E%0A%20%20%3Cdiv%20class%20%3D%20%22row%20text-center%22%3E%0A%20%20%20%20%3Cdiv%20class%20%3D%20%22col-xs-12%22%3E%0A%20%20%20%20%20%20%3Cbutton%20id%20%3D%20%22getMessage%22%20class%20%3D%20%22btn%20btn-primary%22%3E%0A%20%20%20%20%20%20%20%20Get%20Message%0A%20%20%20%20%20%20%3C%2Fbutton%3E%0A%20%20%20%20%3C%2Fdiv%3E%0A%20%20%3C%2Fdiv%3E%0A%3C%2Fdiv%3E%0A,
 Render Images from Data Sources FCC: https://www.freecodecamp.com/challenges/render-images-from-data-sources#?solution=%0Afccss%0A%20%20%24(document).ready(function()%20%7B%0A%0A%20%20%20%20%24(%22%23getMessage%22).on(%22click%22%2C%20function()%20%7B%0A%E2%80%89%20%20%20%20%20%24.getJSON(%22%2Fjson%2Fcats.json%22%2C%20function(json)%20%7B%0A%0A%20%20%20%20%20%20%20%20var%20html%20%3D%20%22%22%3B%0A%0A%20%20%20%20%20%20%20%20json.forEach(function(val)%20%7B%0A%0A%20%20%20%20%20%20%20%20%20%20html%20%2B%3D%20%22%3Cdiv%20class%20%3D%20%27cat%27%3E%22%3B%0A%0A%20%20%20%20%20%20%20%20%20%20%2F%2F%20Only%20change%20code%20below%20this%20line.%0A%20%20%20%20%20%20%20%20%20%20html%20%2B%3D%20%22%3Cimg%20src%20%3D%20%27%22%20%2B%20val.imageLink%20%2B%20%22%27%20%22%20%2B%20%22alt%3D%27%22%20%2B%20val.altText%20%2B%20%22%27%3E%22%3B%0A%20%20%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20%20%20%2F%2F%20Only%20change%20code%20above%20this%20line.%0A%0A%20%20%20%20%20%20%20%20%20%20html%20%2B%3D%20%22%3C%2Fdiv%3E%22%3B%0A%0A%20%20%20%20%20%20%20%20%7D)%3B%0A%0A%E2%80%89%E2%80%89%20%20%E2%80%89%20%20%20%24(%22.message%22).html(html)%3B%0A%0A%20%20%20%20%20%20%7D)%3B%0A%20%20%20%20%7D)%3B%0A%20%20%7D)%3B%0Afcces%0A%0A%3Cdiv%20class%3D%22container-fluid%22%3E%0A%20%20%3Cdiv%20class%20%3D%20%22row%20text-center%22%3E%0A%20%20%20%20%3Ch2%3ECat%20Photo%20Finder%3C%2Fh2%3E%0A%20%20%3C%2Fdiv%3E%0A%20%20%3Cdiv%20class%20%3D%20%22row%20text-center%22%3E%0A%20%20%20%20%3Cdiv%20class%20%3D%20%22col-xs-12%20well%20message%22%3E%0A%20%20%20%20%20%20The%20message%20will%20go%20here%0A%20%20%20%20%3C%2Fdiv%3E%0A%20%20%3C%2Fdiv%3E%0A%20%20%3Cdiv%20class%20%3D%20%22row%20text-center%22%3E%0A%20%20%20%20%3Cdiv%20class%20%3D%20%22col-xs-12%22%3E%0A%20%20%20%20%20%20%3Cbutton%20id%20%3D%20%22getMessage%22%20class%20%3D%20%22btn%20btn-primary%22%3E%0A%20%20%20%20%20%20%20%20Get%20Message%0A%20%20%20%20%20%20%3C%2Fbutton%3E%0A%20%20%20%20%3C%2Fdiv%3E%0A%20%20%3C%2Fdiv%3E%0A%3C%2Fdiv%3E%0A,
@@ -50,8 +117,15 @@ Render Images from Data Sources FCC: https://www.freecodecamp.com/challenges/ren
 
 Articles {
 Object.keys Mozilla Dev: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys,
+}
 
-
+Videos{
+Higher-order Functions FFF:https://youtu.be/BMUiFMZr7vk,
+Map FFF: https://youtu.be/bCqtb-Z5YGQ,
+Reduce FFF: https://youtu.be/Wl98eZpkp-c,
+Reduce Advanced FFF: https://youtu.be/1DMolJ2FrNY,
+Closure FFF: https://youtu.be/CQqwU2Ixu-U,
+Currying FFF: https://youtu.be/iZLP4qOwY8I,
 }
 
 Need help understanding this code:
@@ -88,31 +162,7 @@ Articles {
 Emulating Block Scope in JS: http://adripofjavascript.com/blog/drips/emulating-block-scope-in-javascript.html,
 }
 
-•	Does Javascript have block scope?
-  No, Javascript has functional scoping.
-  Scope is defined within a function where the child function's scope includes that of the parent function(s), but not the other way around.  Block scoping can be emulated with IIFE.
-  [Latest version of Javascript includes block scoping via the 'let' keyword???]
 
-•	What is an IIFE?
-  Immediately called anonymous function.
-  Meant for functions that will never be used again.
-  Syntax: (function(x){console.log(x)})("value");  // console log: value
-  or
-  !function(){}();
-  ~function(){}();
-  -function(){}();
-  +function(){}();
-
-  //Private Methods (I don't understand this)
-  (function($){
-    $(this).addClass('myClass');
-  })(window.JQuery);
-
-•	What is a higher order function?
-  A function that takes another function as an argument, or returns a function.
-  https://www.sitepoint.com/higher-order-functions-javascript/
-
-•	What is a lambda expression?
 
 
 
@@ -294,9 +344,6 @@ Cannot Get Atom Runner to Work: https://discuss.atom.io/t/javascript-doesnt-run-
 My Code Editor: Atom, Setup & Packages: https://www.youtube.com/watch?v=hPC6keUUiTA,
 Running Programs With Atom: https://www.youtube.com/watch?v=QyVnWjZzGVY,
 }
-
-
-
 
 
 */
