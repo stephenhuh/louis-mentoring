@@ -2,61 +2,162 @@
 --------------------------------
 //xX.xX.xX xXM - xXM (x * 25 minutes)
 
+Helpful Links {
+  Visualize Code Execution: http://pythontutor.com/javascript.html,
+  JSBin: http://jsbin.com/juyobagiji/edit?js,console,
+  Gitter Dev Chat: https://gitter.im/,
+  Visualize Data with JS: http://www.highcharts.com/,
+  Install Slack: https://slack.com/downloads/instructions/osx,
+  TypeForm: https://admin.typeform.com/,
+  Eloquent Javascript Next Chapter: http://eloquentjavascript.net/02_program_structure.html,
+  Rethinking Javascript The if Statement: https://hackernoon.com/rethinking-javascript-the-if-statement-b158a61cd6cb#.cky99lj1g,
+  Underscorejs Library: underscorejs.org,
+  JSON Prettify: http://jsonprettyprint.com/,
+}
+
+
 Questions {
 Module Pattern: What is it? https://frontendmasters.com/courses/js-fundamentals-to-functional/#v=did85vfg6j&skip=1,
 Too many arguments?: https://screencast.com/t/7dcYahyG3g,
 }
 
 To-Review {
-Get HTTP Protocol Request: https://www.youtube.com/watch?v=l473EQSkZqc,
-Matt's HHSB Code: https://jsfiddle.net/pixelsauce/5auzoqrh/,
-10 Best Web Dev Channels: https://www.thebalance.com/the-10-best-web-development-youtube-channels-2071397,
-Podio API Javascript How To: https://github.com/podio/podio-js,
-Install Slack Roulette: http://slackroulette.com/signup,
-Creating a Slack Bot with JavaScript: https://www.youtube.com/watch?v=qht25MQQxeQ,
-Slack API: https://api.slack.com/,
-Popio API: https://developers.podio.com/,
-How to authenticate Podio: https://developers.podio.com/authentication,
-Podio-JS: http://podio.github.io/podio-js/authentication/
+  Get HTTP Protocol Request: https://www.youtube.com/watch?v=l473EQSkZqc,
+  Matt's HHSB Code: https://jsfiddle.net/pixelsauce/5auzoqrh/,
+  10 Best Web Dev Channels: https://www.thebalance.com/the-10-best-web-development-youtube-channels-2071397,
+  Install Slack Roulette: http://slackroulette.com/signup,
+  Classical Inheritance in JavaScript: http://www.crockford.com/javascript/inheritance.html,
+  Land tech job with no connections: https://medium.freecodecamp.com/how-you-can-land-a-6-figure-job-in-tech-with-no-connections-6eed0de26ea4#.nusrewx21,
+  Unlock mysteries of programming: https://medium.freecodecamp.com/rosetta-code-unlocking-the-mysteries-of-the-programming-languages-that-power-our-world-300b787d8401#.twufi187n,
+  Javascript Jems - Lambda Expressions: http://www.i-programmer.info/programming/javascript/1031-javascript-jems-lambda-expressions.html,
+  Eloquent Javascript - Higher Order Functions: http://eloquentjavascript.net/05_higher_order.html,
+  Higher-Order Functions in Javascript: https://www.sitepoint.com/higher-order-functions-javascript/,
+  You Don't Know JS: Scope & Closures: https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch3.md,
+  Nodeschool Workshops: https://nodeschool.io/#workshoppers,
 }
 
 
-Helpful Links {
-Visualize Code Execution: http://pythontutor.com/javascript.html,
-JSBin: http://jsbin.com/juyobagiji/edit?js,console,
-Gitter Dev Chat: https://gitter.im/,
-Visualize Data with JS: http://www.highcharts.com/,
-Install Slack: https://slack.com/downloads/instructions/osx,
-TypeForm: https://admin.typeform.com/,
-Eloquent Javascript Next Chapter: http://eloquentjavascript.net/02_program_structure.html,
-Rethinking Javascript The if Statement: https://hackernoon.com/rethinking-javascript-the-if-statement-b158a61cd6cb#.cky99lj1g,
-Underscorejs Library: underscorejs.org,
-JSON Prettify: http://jsonprettyprint.com/,
-}
+
 
 Lessons to Complete {
-Use jquery to make xhr request
-Use jquery to display text
-(No document element by id, use straight query)
+  iteration3 needed from Stevie
+}
+
+
+--------------------------------
+03.1.17 1PM - 4:30PM (5 * 25 minutes)
+
+Articles {
+  Private Members in JavaScript: http://www.crockford.com/javascript/private.html,
+}
+
+Videos {
+  Private Properties In JavaScript Objects in Hindi by vishAcademy: https://www.youtube.com/watch?v=gGQ0Voragw8
+  Object Oriented JavaScript Tutorial #3 How to create Public Members: https://youtu.be/2wEEYx4szDs,
+  Object Oriented JavaScript Tutorial #4 What is a closure & private members: https://www.youtube.com/watch?v=5AzipAJ_jYE,
+  Part 63 Abstract classes in JavaScript YouTube: https://www.youtube.com/watch?v=nlEms0Ctg1o#t=528.579047,
+  Are you bad, good, better or best with Async JS? JS Tutorial: Callbacks, Promises, Generators: https://www.youtube.com/watch?v=obaSQBBWZLk
+  Javascript Generators - THEY CHANGE EVERYTHING - ES6 Generators Harmony Generators: https://www.youtube.com/watch?v=QO07THdLWQo,
+  Generators in JavaScript - What, Why and How - FunFunFunction #34: https://youtu.be/ategZqxHkz4
+}
+
+--------------------------------
+02.28.17 1PM - 3:30PM (4 * 25 minutes)
+
+Videos {
+  javaScript promises explained tutorial: https://youtu.be/s6SH72uAn3Q,
+  Javascript Asynchronous Vs Synchronous: https://www.youtube.com/watch?v=jJM6o2EF54Y,
+  Understanding Asynchronous JavaScript: https://www.youtube.com/watch?v=vMfg0xGjcOI,
+  Asynchronous JavaScript #1 - What is Asynchronous JavaScript?: https://www.youtube.com/watch?v=YxWMxJONp7E,
+
 }
 
 Articles {
-TL;DR - Lambda means "function used as data https://gist.github.com/ericelliott/414be9be82128443f6df,
+  Understanding Synchronous and Asynchronous JavaScript – Part 1: http://www.hongkiat.com/blog/synchronous-asynchronous-javascript/,
+  Understanding Synchronous and Asynchronous JavaScript – Part 2: http://www.hongkiat.com/blog/synchronous-asynchronous-javascript-part2/
+  JavaScript for Beginners - Async: http://rowanmanning.com/posts/javascript-for-beginners-async/,
+  Concurrency model and Event Loop: https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop,
+}
+
+--------------------------------
+02.27.17 11:30AM - 2PM (4 * 25 minutes)
+
+Videos {
+  02 Exploring Async js async waterfall and async series YouTube: https://www.youtube.com/watch?v=E_0XtJEcve4,
+  What is Async JavaScript?: https://www.youtube.com/watch?v=y8xPMYwQ0U8,
+  JavaScript Promises: Thinking Sync in an Async World: https://www.youtube.com/watch?v=wc72cyYt8-c,
+  Node.js tutorial for Beginners: Node.js Async Made Easy: https://www.youtube.com/watch?v=ca7HAqbfd90,
+
+}
+
+
+
+
+--------------------------------
+02.25.17 9:30AM - 11AM (3 * 25 minutes)
+
+Articles {
+  Asynchronous vs synchronous SO.com: http://stackoverflow.com/questions/748175/asynchronous-vs-synchronous-execution-what-does-it-really-mean,
+  http://www.cs.unc.edu/~dewan/242/s04/notes/ipc/node11.html
+  http://stackoverflow.com/questions/864516/what-is-javascript-garbage-collection
+  The JavaScript Event Loop: Explained:  http://blog.carbonfive.com/2013/10/27/the-javascript-event-loop-explained/
+  Garbage Collection: http://docstore.mik.ua/orelly/webprog/jscript/ch11_03.htm,
+  Philip Roberts: What the heck is the event loop anyway?: http://2014.jsconf.eu/speakers/philip-roberts-what-the-heck-is-the-event-loop-anyway.html,
+
 
 }
 
 --------------------------------
-//02.20.17 3:30M - 6:00 (Screenshare 120 minutes)
+//02.24.17 11AM - 12PM (2 * 25 minutes)
+
+Lessons {
+  Sum All Numbers in a Range: https://www.freecodecamp.com/challenges/sum-all-numbers-in-a-range,
+  Mr Snow freeCodeCamp | Sum all Numbers in a Range: https://www.youtube.com/watch?v=gD3AFCZq6Ws,
+  Reduce MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce,
+
+
+}
+
+--------------------------------
+//02.21.17 10:30AM - 12PM (2 * 25 minutes)
+
+Articles {
+  Flexbox: https://medium.freecodecamp.com/even-more-about-how-flexbox-works-explained-in-big-colorful-animated-gifs-a5a74812b053#.v8iuv6b20,
+  The World's Most Misunderstood Programming Language: http://www.crockford.com/javascript/javascript.html,
+  Private Members in JavaScript: http://www.crockford.com/javascript/private.html,
+  Classical Inheritance in Javascript: http://www.crockford.com/javascript/inheritance.html,
+
+}
+
+
+--------------------------------
+//02.20.17 8PM - 10:30PM (25 minutes + Screenshare 90 minutes)
+
+ScreenShare with Sean Liley {
+  Podio Slack Integration: https://github.com/flyblackbox/SeanLouisPodio/,
+  Installed Node.js
+  Learned how to install NPM
+  Installed podio-js
+  Installed Slack SDK
+}
+
+Articles {
+TL;DR - Lambda means "function used as data https://gist.github.com/ericelliott/414be9be82128443f6df,
+}
 
 •	What is a lambda expression?
   A function that is used as an argument or variable definition, that immediately returns data for that purpose.
   Anonymous function != lamda expression always
 
 --------------------------------
-//02.19.17 10:30M - 11:00 (Screenshare 120 minutes)
+//02.19.17 3:30M - 6PM (Screenshare 120 minutes)
 
 ScreenShare with Sean Liley {
   Podio Slack Integration: https://github.com/flyblackbox/SeanLouisPodio/invitations,
+  Installed Node.js
+  Learned how to install NPM
+  Installed podio-js
+  Installed Slack SDK
 }
 
 
@@ -75,11 +176,11 @@ Articles {
 
 
 Videos {
-Fat Arrow Functions JavaScript Programming Tutorial : https://www.youtube.com/watch?v=J85lRtO_yjY,
-Simple Lambda Expressions in JavaScript: https://www.youtube.com/watch?v=0UmtmAHb4KA,
-Classes - JavaScript Advanced Tutorial 6: https://www.youtube.com/watch?v=cBzCrNo1whM
-Singleton Dsgn Pattern packtpub.com: https://www.youtube.com/watch?v=x81qNYeBJc8,
-JavaScript IIFE, Revealing Module Pattern - Singleton, Constructor: https://www.youtube.com/watch?v=jV2EzOzNZQI,
+  Fat Arrow Functions JavaScript Programming Tutorial : https://www.youtube.com/watch?v=J85lRtO_yjY,
+  Simple Lambda Expressions in JavaScript: https://www.youtube.com/watch?v=0UmtmAHb4KA,
+  Classes - JavaScript Advanced Tutorial 6: https://www.youtube.com/watch?v=cBzCrNo1whM
+  Singleton Dsgn Pattern packtpub.com: https://www.youtube.com/watch?v=x81qNYeBJc8,
+  JavaScript IIFE, Revealing Module Pattern - Singleton, Constructor: https://www.youtube.com/watch?v=jV2EzOzNZQI,
 }
 
 ScreenShare with Matt Bulfair {
@@ -97,35 +198,35 @@ Lessons {
 //02.17.17 7PM - 10PM (3 * 25 minutes)
 
 Videos {
-JavaScript object creation patterns tutorial: https://www.youtube.com/watch?v=xizFJHKHdHw,
-Mastering JavaScript: Creating a Singleton | packtpub.com: https://www.youtube.com/watch?v=9pvlz-O6Sak,
-The Constructor Pattern - OOP in Javascript #4: https://youtu.be/NMOM-OBS094,
-Classes - JavaScript Advanced Tutorial 6: https://youtu.be/cBzCrNo1whM,
+  JavaScript object creation patterns tutorial: https://www.youtube.com/watch?v=xizFJHKHdHw,
+  Mastering JavaScript: Creating a Singleton | packtpub.com: https://www.youtube.com/watch?v=9pvlz-O6Sak,
+  The Constructor Pattern - OOP in Javascript #4: https://youtu.be/NMOM-OBS094,
+  Classes - JavaScript Advanced Tutorial 6: https://youtu.be/cBzCrNo1whM,
 }
 
 Articles {
-Object.defineProperties(): https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperties,
+  Object.defineProperties(): https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperties,
 }
 
 
 --------------------------------
 //02.16.17 1:30PM - 2PM && 6PM - 8:30PM (4 * 25 minutes)
 Lessons {
-Convert JSON Data to HTML FCC: https://www.freecodecamp.com/challenges/convert-json-data-to-html#?solution=%0Afccss%0A%20%20%24(document).ready(function()%20%7B%0A%0A%20%20%20%20%24(%22%23getMessage%22).on(%22click%22%2C%20function()%20%7B%0A%E2%80%89%E2%80%89%20%20%20%20%24.getJSON(%22%2Fjson%2Fcats.json%22%2C%20function(json)%20%7B%0A%0A%20%20%20%20%20%20%20%20var%20html%20%3D%20%22%22%3B%0A%20%20%20%20%20%20%20%20%2F%2F%20Only%20change%20code%20below%20this%20line.%0A%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20json.forEach(function(val)%20%7B%0A%20%20%20%20%20%20%20%20%20%20var%20keys%20%3D%20Object.keys(val)%3B%0A%20%20%20%20%20%20%20%20%20%20html%20%2B%3D%20%22%3Cdiv%20class%20%3D%20%27cat%27%3E%22%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20keys.forEach(function(key)%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20html%20%2B%3D%20%22%3Cstrong%3E%22%20%2B%20key%20%2B%20%22%3C%2Fstrong%3E%3A%20%22%20%2B%20val%5Bkey%5D%20%2B%20%22%3Cbr%3E%22%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%7D)%3B%0A%20%20%20%20%20%20%20%20%20%20html%20%2B%3D%20%22%3C%2Fdiv%3E%3Cbr%3E%22%3B%0A%20%20%20%20%20%20%20%20%7D)%3B%0A%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20%2F%2F%20Only%20change%20code%20above%20this%20line.%0A%0A%E2%80%89%E2%80%89%E2%80%89%E2%80%89%20%20%20%20%24(%22.message%22).html(html)%3B%0A%0A%E2%80%89%E2%80%89%20%20%20%20%7D)%3B%0A%20%20%20%20%7D)%3B%0A%20%20%7D)%3B%0Afcces%0A%0A%3Cdiv%20class%3D%22container-fluid%22%3E%0A%20%20%3Cdiv%20class%20%3D%20%22row%20text-center%22%3E%0A%20%20%20%20%3Ch2%3ECat%20Photo%20Finder%3C%2Fh2%3E%0A%20%20%3C%2Fdiv%3E%0A%20%20%3Cdiv%20class%20%3D%20%22row%20text-center%22%3E%0A%20%20%20%20%3Cdiv%20class%20%3D%20%22col-xs-12%20well%20message%22%3E%0A%20%20%20%20%20%20The%20message%20will%20go%20here%0A%20%20%20%3C%2Fdiv%3E%0A%20%20%3C%2Fdiv%3E%0A%20%20%3Cdiv%20class%20%3D%20%22row%20text-center%22%3E%0A%20%20%20%20%3Cdiv%20class%20%3D%20%22col-xs-12%22%3E%0A%20%20%20%20%20%20%3Cbutton%20id%20%3D%20%22getMessage%22%20class%20%3D%20%22btn%20btn-primary%22%3E%0A%20%20%20%20%20%20%20%20Get%20Message%0A%20%20%20%20%20%20%3C%2Fbutton%3E%0A%20%20%20%20%3C%2Fdiv%3E%0A%20%20%3C%2Fdiv%3E%0A%3C%2Fdiv%3E%0A,
-Render Images from Data Sources FCC: https://www.freecodecamp.com/challenges/render-images-from-data-sources#?solution=%0Afccss%0A%20%20%24(document).ready(function()%20%7B%0A%0A%20%20%20%20%24(%22%23getMessage%22).on(%22click%22%2C%20function()%20%7B%0A%E2%80%89%20%20%20%20%20%24.getJSON(%22%2Fjson%2Fcats.json%22%2C%20function(json)%20%7B%0A%0A%20%20%20%20%20%20%20%20var%20html%20%3D%20%22%22%3B%0A%0A%20%20%20%20%20%20%20%20json.forEach(function(val)%20%7B%0A%0A%20%20%20%20%20%20%20%20%20%20html%20%2B%3D%20%22%3Cdiv%20class%20%3D%20%27cat%27%3E%22%3B%0A%0A%20%20%20%20%20%20%20%20%20%20%2F%2F%20Only%20change%20code%20below%20this%20line.%0A%20%20%20%20%20%20%20%20%20%20html%20%2B%3D%20%22%3Cimg%20src%20%3D%20%27%22%20%2B%20val.imageLink%20%2B%20%22%27%20%22%20%2B%20%22alt%3D%27%22%20%2B%20val.altText%20%2B%20%22%27%3E%22%3B%0A%20%20%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20%20%20%2F%2F%20Only%20change%20code%20above%20this%20line.%0A%0A%20%20%20%20%20%20%20%20%20%20html%20%2B%3D%20%22%3C%2Fdiv%3E%22%3B%0A%0A%20%20%20%20%20%20%20%20%7D)%3B%0A%0A%E2%80%89%E2%80%89%20%20%E2%80%89%20%20%20%24(%22.message%22).html(html)%3B%0A%0A%20%20%20%20%20%20%7D)%3B%0A%20%20%20%20%7D)%3B%0A%20%20%7D)%3B%0Afcces%0A%0A%3Cdiv%20class%3D%22container-fluid%22%3E%0A%20%20%3Cdiv%20class%20%3D%20%22row%20text-center%22%3E%0A%20%20%20%20%3Ch2%3ECat%20Photo%20Finder%3C%2Fh2%3E%0A%20%20%3C%2Fdiv%3E%0A%20%20%3Cdiv%20class%20%3D%20%22row%20text-center%22%3E%0A%20%20%20%20%3Cdiv%20class%20%3D%20%22col-xs-12%20well%20message%22%3E%0A%20%20%20%20%20%20The%20message%20will%20go%20here%0A%20%20%20%20%3C%2Fdiv%3E%0A%20%20%3C%2Fdiv%3E%0A%20%20%3Cdiv%20class%20%3D%20%22row%20text-center%22%3E%0A%20%20%20%20%3Cdiv%20class%20%3D%20%22col-xs-12%22%3E%0A%20%20%20%20%20%20%3Cbutton%20id%20%3D%20%22getMessage%22%20class%20%3D%20%22btn%20btn-primary%22%3E%0A%20%20%20%20%20%20%20%20Get%20Message%0A%20%20%20%20%20%20%3C%2Fbutton%3E%0A%20%20%20%20%3C%2Fdiv%3E%0A%20%20%3C%2Fdiv%3E%0A%3C%2Fdiv%3E%0A,
+  Convert JSON Data to HTML FCC: https://www.freecodecamp.com/challenges/convert-json-data-to-html#?solution=%0Afccss%0A%20%20%24(document).ready(function()%20%7B%0A%0A%20%20%20%20%24(%22%23getMessage%22).on(%22click%22%2C%20function()%20%7B%0A%E2%80%89%E2%80%89%20%20%20%20%24.getJSON(%22%2Fjson%2Fcats.json%22%2C%20function(json)%20%7B%0A%0A%20%20%20%20%20%20%20%20var%20html%20%3D%20%22%22%3B%0A%20%20%20%20%20%20%20%20%2F%2F%20Only%20change%20code%20below%20this%20line.%0A%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20json.forEach(function(val)%20%7B%0A%20%20%20%20%20%20%20%20%20%20var%20keys%20%3D%20Object.keys(val)%3B%0A%20%20%20%20%20%20%20%20%20%20html%20%2B%3D%20%22%3Cdiv%20class%20%3D%20%27cat%27%3E%22%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20keys.forEach(function(key)%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20html%20%2B%3D%20%22%3Cstrong%3E%22%20%2B%20key%20%2B%20%22%3C%2Fstrong%3E%3A%20%22%20%2B%20val%5Bkey%5D%20%2B%20%22%3Cbr%3E%22%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%7D)%3B%0A%20%20%20%20%20%20%20%20%20%20html%20%2B%3D%20%22%3C%2Fdiv%3E%3Cbr%3E%22%3B%0A%20%20%20%20%20%20%20%20%7D)%3B%0A%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20%2F%2F%20Only%20change%20code%20above%20this%20line.%0A%0A%E2%80%89%E2%80%89%E2%80%89%E2%80%89%20%20%20%20%24(%22.message%22).html(html)%3B%0A%0A%E2%80%89%E2%80%89%20%20%20%20%7D)%3B%0A%20%20%20%20%7D)%3B%0A%20%20%7D)%3B%0Afcces%0A%0A%3Cdiv%20class%3D%22container-fluid%22%3E%0A%20%20%3Cdiv%20class%20%3D%20%22row%20text-center%22%3E%0A%20%20%20%20%3Ch2%3ECat%20Photo%20Finder%3C%2Fh2%3E%0A%20%20%3C%2Fdiv%3E%0A%20%20%3Cdiv%20class%20%3D%20%22row%20text-center%22%3E%0A%20%20%20%20%3Cdiv%20class%20%3D%20%22col-xs-12%20well%20message%22%3E%0A%20%20%20%20%20%20The%20message%20will%20go%20here%0A%20%20%20%3C%2Fdiv%3E%0A%20%20%3C%2Fdiv%3E%0A%20%20%3Cdiv%20class%20%3D%20%22row%20text-center%22%3E%0A%20%20%20%20%3Cdiv%20class%20%3D%20%22col-xs-12%22%3E%0A%20%20%20%20%20%20%3Cbutton%20id%20%3D%20%22getMessage%22%20class%20%3D%20%22btn%20btn-primary%22%3E%0A%20%20%20%20%20%20%20%20Get%20Message%0A%20%20%20%20%20%20%3C%2Fbutton%3E%0A%20%20%20%20%3C%2Fdiv%3E%0A%20%20%3C%2Fdiv%3E%0A%3C%2Fdiv%3E%0A,
+  Render Images from Data Sources FCC: https://www.freecodecamp.com/challenges/render-images-from-data-sources#?solution=%0Afccss%0A%20%20%24(document).ready(function()%20%7B%0A%0A%20%20%20%20%24(%22%23getMessage%22).on(%22click%22%2C%20function()%20%7B%0A%E2%80%89%20%20%20%20%20%24.getJSON(%22%2Fjson%2Fcats.json%22%2C%20function(json)%20%7B%0A%0A%20%20%20%20%20%20%20%20var%20html%20%3D%20%22%22%3B%0A%0A%20%20%20%20%20%20%20%20json.forEach(function(val)%20%7B%0A%0A%20%20%20%20%20%20%20%20%20%20html%20%2B%3D%20%22%3Cdiv%20class%20%3D%20%27cat%27%3E%22%3B%0A%0A%20%20%20%20%20%20%20%20%20%20%2F%2F%20Only%20change%20code%20below%20this%20line.%0A%20%20%20%20%20%20%20%20%20%20html%20%2B%3D%20%22%3Cimg%20src%20%3D%20%27%22%20%2B%20val.imageLink%20%2B%20%22%27%20%22%20%2B%20%22alt%3D%27%22%20%2B%20val.altText%20%2B%20%22%27%3E%22%3B%0A%20%20%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20%20%20%2F%2F%20Only%20change%20code%20above%20this%20line.%0A%0A%20%20%20%20%20%20%20%20%20%20html%20%2B%3D%20%22%3C%2Fdiv%3E%22%3B%0A%0A%20%20%20%20%20%20%20%20%7D)%3B%0A%0A%E2%80%89%E2%80%89%20%20%E2%80%89%20%20%20%24(%22.message%22).html(html)%3B%0A%0A%20%20%20%20%20%20%7D)%3B%0A%20%20%20%20%7D)%3B%0A%20%20%7D)%3B%0Afcces%0A%0A%3Cdiv%20class%3D%22container-fluid%22%3E%0A%20%20%3Cdiv%20class%20%3D%20%22row%20text-center%22%3E%0A%20%20%20%20%3Ch2%3ECat%20Photo%20Finder%3C%2Fh2%3E%0A%20%20%3C%2Fdiv%3E%0A%20%20%3Cdiv%20class%20%3D%20%22row%20text-center%22%3E%0A%20%20%20%20%3Cdiv%20class%20%3D%20%22col-xs-12%20well%20message%22%3E%0A%20%20%20%20%20%20The%20message%20will%20go%20here%0A%20%20%20%20%3C%2Fdiv%3E%0A%20%20%3C%2Fdiv%3E%0A%20%20%3Cdiv%20class%20%3D%20%22row%20text-center%22%3E%0A%20%20%20%20%3Cdiv%20class%20%3D%20%22col-xs-12%22%3E%0A%20%20%20%20%20%20%3Cbutton%20id%20%3D%20%22getMessage%22%20class%20%3D%20%22btn%20btn-primary%22%3E%0A%20%20%20%20%20%20%20%20Get%20Message%0A%20%20%20%20%20%20%3C%2Fbutton%3E%0A%20%20%20%20%3C%2Fdiv%3E%0A%20%20%3C%2Fdiv%3E%0A%3C%2Fdiv%3E%0A,
 }
 
 Articles {
-Object.keys Mozilla Dev: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys,
+  Object.keys Mozilla Dev: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys,
 }
 
 Videos{
-Higher-order Functions FFF:https://youtu.be/BMUiFMZr7vk,
-Map FFF: https://youtu.be/bCqtb-Z5YGQ,
-Reduce FFF: https://youtu.be/Wl98eZpkp-c,
-Reduce Advanced FFF: https://youtu.be/1DMolJ2FrNY,
-Closure FFF: https://youtu.be/CQqwU2Ixu-U,
-Currying FFF: https://youtu.be/iZLP4qOwY8I,
+  Higher-order Functions FFF:https://youtu.be/BMUiFMZr7vk,
+  Map FFF: https://youtu.be/bCqtb-Z5YGQ,
+  Reduce FFF: https://youtu.be/Wl98eZpkp-c,
+  Reduce Advanced FFF: https://youtu.be/1DMolJ2FrNY,
+  Closure FFF: https://youtu.be/CQqwU2Ixu-U,
+  Currying FFF: https://youtu.be/iZLP4qOwY8I,
 }
 
 Need help understanding this code:
@@ -155,11 +256,11 @@ Need help understanding this code:
 //2.15.17 5PM - 6PM (2 * 25 minutes)
 
 Videos {
-Javascript Immediately Invoked Function Expression IIFE Tutorial: https://www.youtube.com/watch?v=eY7u388cvM4 ,
+  Javascript Immediately Invoked Function Expression IIFE Tutorial: https://www.youtube.com/watch?v=eY7u388cvM4 ,
 }
 
 Articles {
-Emulating Block Scope in JS: http://adripofjavascript.com/blog/drips/emulating-block-scope-in-javascript.html,
+  Emulating Block Scope in JS: http://adripofjavascript.com/blog/drips/emulating-block-scope-in-javascript.html,
 }
 
 
