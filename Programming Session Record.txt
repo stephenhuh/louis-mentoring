@@ -84,7 +84,7 @@ Projects to Complete {
   Hip Hop Score Board: https://github.com/flyblackbox/HHSB,
   Ai Offer Filter: Product Manager, Developer: Wizeline,
   GroupMe Analytics app
-  GroupMe Chatbot
+  GroupMe Chatbot: https://www.npmjs.com/package/groupme
   Alexa / Adobe Analytics integration:  https://gomix.com/#!/project/alexa-skill
   StudySessionToMindMap: Take the data below from my study sessions and convert them into a mind map,
   Ropeit Pro
@@ -92,11 +92,6 @@ Projects to Complete {
 }
 
 Next to Review: React, Regex, Async, NPM/webpack/gulp/grunt (pros/cons)
-
-
-GroupMe Chatbot {
-  https://www.npmjs.com/package/groupme
-}
 
 
 --------------------------------
@@ -114,12 +109,7 @@ Videos {
 
 HHSB {
   Updated Pivotal Tracker: ,
-
-
 }
-
-
-
 
 
 CodeCademy React {
@@ -145,12 +135,10 @@ CodeCademy React {
   Components And This: https://www.codecademy.com/courses/react-101/lessons/react-components-advanced-jsx/exercises/components-and-this,
   Component Event Listener: https://www.codecademy.com/courses/react-101/lessons/react-components-advanced-jsx/exercises/component-event-listener,
   Components Recap:  https://www.codecademy.com/courses/react-101/lessons/react-components-advanced-jsx/exercises/components-recap
-
 }
 
 React Documentation {
   Conditional Rendering: https://facebook.github.io/react/docs/conditional-rendering.html
-
 }
 
 --------------------------------
